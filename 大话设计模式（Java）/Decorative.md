@@ -81,7 +81,7 @@ class ConcreteDecoratorC extends Decorator {
 public class DecoratorClient {
     public static void main(String[] args) {
 	ConcreteComponent concreteComponent = new ConcreteComponent();
-	ConcreteDecoratorA concreteDecoratorA = new ConcreteDecoratorA();
+	ConcreteDecoratorA concreteDecoratorA = new ConcreteDecoratorA();//深入理解（引用了抽象父类的方法）
 	ConcreteDecoratorB concreteDecoratorB = new ConcreteDecoratorB();
 	ConcreteDecoratorC concreteDecoratorC = new ConcreteDecoratorC();
 
