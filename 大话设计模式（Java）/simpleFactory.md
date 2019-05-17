@@ -1,3 +1,4 @@
+```java
 运算类（抽象类）
 public abstract class Operation {
     public double numberA;
@@ -88,3 +89,4 @@ public class Calculator {
 	System.out.println( operation.result() );
     }
 }
+```
